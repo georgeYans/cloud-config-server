@@ -1,14 +1,20 @@
-cluster-node:
-  cluster:
+cluster:
+  nodes:
    - ip: 172.18.0.2
      port: 1001
      lable: master
      type: node
+     status: up
+     desc: none
    - ip: 172.18.0.3
      port: 1001
      lable: slave
      type: node
+     status: up
+     desc: none
    - ip: 172.18.0.4
      port: 1001
      lable: slave
      type: node
+     status: down
+     desc: none
